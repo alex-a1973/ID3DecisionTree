@@ -1,0 +1,17 @@
+digraph {
+	<__main__.Node object at 0x00000215829ACC18> [label=outlook]
+	<__main__.Node object at 0x00000215829ACB70> [label=humidity]
+	<__main__.Node object at 0x00000215829ACC18> -> <__main__.Node object at 0x00000215829ACB70> [label=sunny]
+	<__main__.Node object at 0x00000215829ACD68> [label=Death]
+	<__main__.Node object at 0x00000215829ACB70> -> <__main__.Node object at 0x00000215829ACD68> [label=high]
+	<__main__.Node object at 0x00000215829AC7B8> [label=Survived]
+	<__main__.Node object at 0x00000215829ACB70> -> <__main__.Node object at 0x00000215829AC7B8> [label=normal]
+	<__main__.Node object at 0x00000215829AEC50> [label=Survived]
+	<__main__.Node object at 0x00000215829ACC18> -> <__main__.Node object at 0x00000215829AEC50> [label=overcast]
+	<__main__.Node object at 0x00000215823F7208> [label=wind]
+	<__main__.Node object at 0x00000215829ACC18> -> <__main__.Node object at 0x00000215823F7208> [label=rain]
+	<__main__.Node object at 0x00000215829ACD30> [label=Survived]
+	<__main__.Node object at 0x00000215823F7208> -> <__main__.Node object at 0x00000215829ACD30> [label=weak]
+	<__main__.Node object at 0x00000215829AC7F0> [label=Death]
+	<__main__.Node object at 0x00000215823F7208> -> <__main__.Node object at 0x00000215829AC7F0> [label=strong]
+}
